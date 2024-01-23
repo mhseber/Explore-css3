@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            text-align: center;
+            margin-right: 50px;
+            border: 5px solid cadetblue;
+            background-color: gold;
+            transition: width 1s, ease 1s, height 1s, transform 1s;
+        }
+
+        .box:hover {
+            width: 200px;
+            height: 200px;
+            transform: rotate(180deg);
+        }
+
+        .boll {
+            width: 100px;
+            height: 100px;
+            margin-top: 30px;
+            display: inline-block;
+            text-align: center;
+            margin-right: 50px;
+            border: 5px solid cadetblue;
+            background-color: gold;
+            transition: width 1s, ease 1s, height 1s, transform 1s;
+        }
+
+        .boll:hover {
+            width: 200px;
+            height: 200px;
+            transform: rotate(180deg);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="box">
+            <h4>TUSAR</h4>
+        </div>
+        <div class="box">
+            <h4>MH SEBER</h4>
+        </div>
+        <div class="box">
+            <h4>FAHIM</h4>
+        </div>
+        <div class="box">
+            <h4>SABBIR</h4>
+        </div>
+        <div>
+            <div class="boll">
+                <h4>1</h4>
+            </div>
+            <div class="boll">
+                <h4>2</h4>
+            </div>
+            <div class="boll">
+                <h4>3</h4>
+            </div>
+            <div class="boll">
+                <h4>4</h4>
+            </div>
+        </div>
+</body>
+
+</html>
